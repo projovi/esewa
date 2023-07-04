@@ -1,0 +1,26 @@
+{
+    "name": "projovi/proesewa",
+    "description": "Pro Esewa - A simple laravel package to integrate esewa payment.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Projovi\\ProEsewa\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Projovi",
+            "email": "developers@projovi.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Projovi\\ProEsewa\\EsewaServiceProvider"
+            ]   
+        }
+    }
+}
